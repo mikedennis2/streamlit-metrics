@@ -23,7 +23,7 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     description="Component for displaying important figures on a Streamlit dashboard",
-    install_requires=['streamlit>=0.68'],
+    install_requires=['streamlit>=0.86'],
     license="MIT license",
     long_description=readme,
     long_description_content_type='text/markdown',
@@ -31,6 +31,6 @@ setup(
     name='streamlit_metrics',
     packages=find_packages(),
     url='https://github.com/samdobson/streamlit_metrics',
-    version='0.1.0',
+    version='0.1.1',
     zip_safe=False,
 )

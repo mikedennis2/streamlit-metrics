@@ -33,7 +33,7 @@ def _build_metric(label, value):
     return html.render(label=label, value=value)
 
 def metric_row(data):
-    columns = st.beta_columns(len(data))
+    columns = st.columns(len(data))
     for i, (label, value) in enumerate(data.items()):
         with columns[i]:
             components.html(_build_metric(label, value))
